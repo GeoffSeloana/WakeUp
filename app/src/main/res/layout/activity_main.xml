@@ -13,7 +13,6 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:paddingBo
         app:srcCompat="@drawable/clock" />
 
     <TextView
@@ -30,7 +29,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"

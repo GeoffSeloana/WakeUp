@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">design</string>
-    <string name="desc">If I have a large set of layer grouped, I double click the grouped set to enter the
- group and individually select layers.</string>
+    <string name="desc">Forgot to set your alarm? Worry not, cause your wife can set it for you :-). With the “Wake up” app you can authorize people to set your alarm no matter where they are in the world. Now you can sleep peacefully knowing that your alarm is set. ENJOY!</string>
     <string name="title">WakeUp</string>
 </resources>
