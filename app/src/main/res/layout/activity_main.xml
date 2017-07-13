@@ -2,10 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.geoffrey.design.MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="@drawable/bg">
+
 
     <Button
         android:layout_width="wrap_content"
@@ -35,7 +35,8 @@
         android:text="@string/desc"
         android:textColor="@color/White"
         android:textAlignment="center"
-        android:lineSpacingExtra="12px"
-        />
+        android:lineSpacingExtra="12px"/>
+
+
 
 </RelativeLayout>
