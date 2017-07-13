@@ -6,6 +6,16 @@
     android:layout_height="fill_parent"
     android:background="@drawable/bg">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:paddingBo
+        app:srcCompat="@drawable/clock" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -13,9 +23,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="165dp"
-        android:text="@string/hello"
+        android:text="@string/title"
         android:textColor="@color/White"
-        android:textSize="90px"/>
+        android:textSize="90px"
+        android:layout_below="@+id/imageView"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -28,6 +39,7 @@
         android:textColor="@color/White"
         android:textAlignment="center"
         android:lineSpacingExtra="12px"/>
+
 
 
 

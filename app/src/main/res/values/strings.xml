@@ -2,5 +2,5 @@
     <string name="app_name">design</string>
     <string name="desc">If I have a large set of layer grouped, I double click the grouped set to enter the
  group and individually select layers.</string>
-    <string name="hello">Hello World</string>
+    <string name="title">WakeUp</string>
 </resources>
