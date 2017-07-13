@@ -42,7 +42,7 @@
         android:paddingLeft="50dp"
         android:layout_marginBottom="100px"
         fancy:fb_ghost="true"
-        fancy:fb_radius="25dp"
+        fancy:fb_radius="125dp"
         fancy:fb_borderWidth="2dp"
         fancy:fb_borderColor="@color/White"
         fancy:fb_text="GET STARTED"
