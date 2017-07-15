@@ -32,7 +32,7 @@
         android:lineSpacingExtra="12px"/>
 
     <mehdi.sakout.fancybuttons.FancyButton
-        android:id="@+id/btn_ghost_email"
+        android:id="@+id/btn_getStarted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="20dp"
