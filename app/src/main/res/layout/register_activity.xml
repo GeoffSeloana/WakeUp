@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome"
+        android:text="Register"
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:textSize="45sp"/>
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="To access all features of the app provided by Code Is All, You need to login first."
+        android:text="Register for greatness."
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:textSize="12sp"
@@ -33,6 +33,16 @@
         android:layout_height="40dp"
         android:background="@drawable/rounded_edit_text"
         android:hint="Email Address"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="Username"
         android:layout_margin="10dp"
         android:inputType="text"
         android:textColor="#000000"
@@ -55,7 +65,7 @@
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_margin="10dp"
-        android:text="Login"
+        android:text="Register"
         android:textColor="#FFFFFF"
         android:background="@drawable/rounded_button_main"/>
 
@@ -66,27 +76,25 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/link_forgotPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:textSize="14sp"
-            android:text="Forgot Password"/>
+            android:text="Already have an account? "/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:textSize="14sp"
-            android:text=" | "/>
+            android:text=" "/>
 
         <TextView
-            android:id="@+id/link_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:textSize="14sp"
-            android:text="Register"/>
+            android:text="Login"/>
 
     </LinearLayout>
 
