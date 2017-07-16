@@ -61,6 +61,7 @@
         android:background="@drawable/rounded_button_main"/>
 
     <LinearLayout
+        android:id="@+id/infotext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -90,5 +91,7 @@
             android:text="Register"/>
 
     </LinearLayout>
+
+
 
 </LinearLayout>

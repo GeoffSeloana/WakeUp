@@ -100,5 +100,18 @@
             android:text="Login"/>
 
     </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_states"
+            android:text="&#xf063;"
+            android:id="@+id/btn_scan_qr"
+            android:textSize="15dp"/>
+    </RelativeLayout>
 
 </LinearLayout>

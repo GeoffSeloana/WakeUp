@@ -30,6 +30,8 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this,ForgotPasswordActivity.class);
                 startActivity(intent);
+                // close this activity
+                finish();
             }
         });
         link_register.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +39,8 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this,RegisterActivity.class);
                 startActivity(intent);
+                // close this activity
+                finish();
             }
         });
         btn_login.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +48,8 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                 startActivity(intent);
+                // close this activity
+                finish();
             }
         });
 

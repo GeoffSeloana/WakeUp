@@ -26,6 +26,8 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(RegisterActivity.this,LoginActivity.class);
                 startActivity(intent);
+                // close this activity
+                finish();
             }
         });
         link_logintxt.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +35,8 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(intent);
+                // close this activity
+                finish();
             }
         });
     }
